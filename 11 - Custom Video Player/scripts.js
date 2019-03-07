@@ -75,7 +75,7 @@ progress.addEventListener('mousemove, () => {
   if (mousedown) {
   scrub(;)
 }
-}) this functino is not clear
+}) this function is not clear
 */
 progress.addEventListener('mousemove', () => mousedown && scrub(e));
 progress.addEventListener('mousedown', () => mousedown = true);
@@ -92,5 +92,7 @@ css
   width: 100%
 }
 function
+ideally you'd want a button to be added onto the html page,
+query select it and apply the function upon click
 player.webkitRequestFullScreen()
 */
